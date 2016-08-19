@@ -51,7 +51,3 @@ xcuserdata
 # Xcode 5 Version Control
  
 *.xccheckout
-
-# APICloud
-iOSPush/target/
-#iOSPush.zip
