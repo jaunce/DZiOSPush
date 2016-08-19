@@ -10,7 +10,6 @@
 #import "UZAppDelegate.h"
 #import "NSDictionaryUtils.h"
 #import "DZAppHandler.h"
-#define alert(s) [[[UIAlertView alloc] initWithTitle:nil message:s delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show]
 
 @interface DZiOSPush ()<UIAlertViewDelegate,UIApplicationDelegate>
 

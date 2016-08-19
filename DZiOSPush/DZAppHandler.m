@@ -27,8 +27,6 @@
 {
     self.launchOptions = launchOptions;
     
-    [[UIApplication sharedApplication] cancelAllLocalNotifications];
-    [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     [theApp removeAppHandle:self];
     return YES;
 }
