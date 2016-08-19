@@ -1,0 +1,6 @@
+{
+    "name":"iOSPush",
+    "class":"DZiOSPush",
+    "methods":["initialize"],
+    "launchClassMethod":"launch"
+}

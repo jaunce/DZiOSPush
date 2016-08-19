@@ -1,60 +1,57 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## Build generated
-build/
+##############################################
+#       .gitignore for Xcode 5 Project       #
+# https://gist.github.com/bartjacobs/8334797 #
+##############################################
+ 
+# Temporary Files OS X
+ 
+.DS_Store
+*.swp
+profile
+ 
+ 
+# Temporary Files Xcode
+ 
+*~.nib
+ 
+ 
+# Xcode Build Files
+ 
 DerivedData/
+build/
 
-## Various settings
+ 
+ 
+# Xcode Private Settings
+ 
 *.pbxuser
-!default.pbxuser
 *.mode1v3
-!default.mode1v3
 *.mode2v3
-!default.mode2v3
 *.perspectivev3
+ 
+ 
+# Whitelist Defaults
+ 
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
 !default.perspectivev3
-xcuserdata/
-
-## Other
+ 
+ 
+# Xcode 5 Personal Settings
+ 
+xcuserdata
+ 
+ 
+# Xcode 5 Deprecated Classes
+ 
 *.moved-aside
-*.xcuserstate
+ 
+ 
+# Xcode 5 Version Control
+ 
+*.xccheckout
 
-## Obj-C/Swift specific
-*.hmap
-*.ipa
-*.dSYM.zip
-*.dSYM
-
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo. Instead, use fastlane to re-generate the 
-# screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://github.com/fastlane/fastlane/blob/master/fastlane/docs/Gitignore.md
-
-fastlane/report.xml
-fastlane/screenshots
-
-#Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
+# APICloud
+iOSPush/target/
+#iOSPush.zip

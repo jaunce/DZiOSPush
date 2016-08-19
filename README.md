@@ -1,2 +1,8 @@
-# DZiOSPush
-iOS 离线推送获取，APICloud自定义模块
+# APICloud使用方法
+```javascript
+var iOSPush = api.require('iOSPush');
+iOSPush.initialize(function(ret) {
+	if (ret.payload) {
+	}
+});
+```
