@@ -48,7 +48,6 @@
 
 - (void)handleRemoteNotification:(NSDictionary *)userInfo
 {
-    [[UIApplication sharedApplication] cancelAllLocalNotifications];
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     
     NSString *payload = userInfo[@"payload"];
