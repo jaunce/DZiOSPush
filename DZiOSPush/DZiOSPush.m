@@ -51,8 +51,9 @@
     [UIApplication sharedApplication].applicationIconBadgeNumber = 0;
     
     NSString *payload = userInfo[@"payload"];
+    NSDictionary *dic = [NSDictionary dictionaryWithObjectsAndKeys:payload,@"payload", nil];
     if (payload && _cbId >= 0) {
-        [self sendResultEventWithCallbackId:_cbId dataDict:@{@"payload":payload} errDict:nil doDelete:NO];
+        [self sendResultEventWithCallbackId:_cbId dataDict:dic errDict:nil doDelete:NO];
     }
 }
 
